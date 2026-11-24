@@ -1,0 +1,34 @@
+[
+  {
+    "paper_id": "SYN-001",
+    "title": "SYNTHETIC: Effect of compound ZX-101 on resting heart rate (toy RCT)",
+    "year": 2021,
+    "study_type": "RCT",
+    "sections": [
+      {"name": "Abstract", "text": "This synthetic trial tests a fictional compound, ZX-101. We randomized 200 fictional adults to ZX-101 or placebo. Resting heart rate fell by 6 beats per minute in the treatment arm (p = 0.01). No serious adverse events were recorded."},
+      {"name": "Methods", "text": "Participants were aged 40 to 65 and had no prior cardiac disease. Randomization was 1:1 and blinded, as described in Fig. 1. Heart rate was measured at baseline and at week 12 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included. Missing data were handled by multiple imputation."},
+      {"name": "Results", "text": "Mean baseline heart rate was 74 beats per minute in both arms. At week 12 the ZX-101 arm averaged 68 and the placebo arm averaged 74. The difference was statistically significant. Mild nausea occurred in 9% of treated participants versus 3% on placebo."},
+      {"name": "References", "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."}
+    ]
+  },
+  {
+    "paper_id": "SYN-002",
+    "title": "SYNTHETIC: ZX-101 and heart rate in older adults (toy cohort)",
+    "year": 2023,
+    "study_type": "cohort",
+    "sections": [
+      {"name": "Abstract", "text": "In a fictional cohort of 1,000 adults over 70, ZX-101 users showed no meaningful change in resting heart rate. Observational confounding cannot be excluded."},
+      {"name": "Results", "text": "Heart rate differed by 1 beat per minute between users and non-users (p = 0.40). Results were similar across sexes. Adherence was self-reported, which limits interpretation."}
+    ]
+  },
+  {
+    "paper_id": "SYN-003",
+    "title": "SYNTHETIC: Review of heart rate lowering compounds (toy review)",
+    "year": 2022,
+    "study_type": "review",
+    "sections": [
+      {"name": "Abstract", "text": "This fictional review summarizes evidence on heart rate lowering compounds. Evidence for ZX-101 is mixed, with one randomized trial and one cohort study pointing in different directions."},
+      {"name": "Discussion", "text": "Randomized evidence is generally stronger than observational evidence for causal claims. Differences in age range between studies may explain the discordant findings. Larger trials are needed."}
+    ]
+  }
+]

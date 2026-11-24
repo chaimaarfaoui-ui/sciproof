@@ -1,0 +1,308 @@
+[
+ {
+  "id": "q01",
+  "question": "What was the effect of VL-9 on systolic blood pressure?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-001",
+   "SYN-002"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q02",
+  "question": "Is the evidence that VL-9 lowers systolic blood pressure consistent across studies?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-001",
+   "SYN-002"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ],
+  "expected_verdict": "supported"
+ },
+ {
+  "id": "q03",
+  "question": "Does RT-450 reduce fasting glucose?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-003",
+   "SYN-004"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q04",
+  "question": "Is the evidence that RT-450 lowers fasting glucose consistent across studies?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-003",
+   "SYN-004"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ],
+  "expected_verdict": "conflicting"
+ },
+ {
+  "id": "q05",
+  "question": "How much did fasting glucose change with MN-7?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-005",
+   "SYN-006"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q06",
+  "question": "Is the evidence that MN-7 lowers fasting glucose consistent across studies?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-005",
+   "SYN-006"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ],
+  "expected_verdict": "conflicting"
+ },
+ {
+  "id": "q07",
+  "question": "What was the effect of VL-9 on sleep latency?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-007",
+   "SYN-008"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q08",
+  "question": "Is the evidence that VL-9 lowers sleep latency consistent across studies?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-007",
+   "SYN-008"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ],
+  "expected_verdict": "conflicting"
+ },
+ {
+  "id": "q09",
+  "question": "Does QB-22 reduce fasting glucose?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-009",
+   "SYN-010"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q10",
+  "question": "Is the evidence that QB-22 lowers fasting glucose consistent across studies?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-009",
+   "SYN-010"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ],
+  "expected_verdict": "conflicting"
+ },
+ {
+  "id": "q11",
+  "question": "How much did sleep latency change with QB-22?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-011"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q12",
+  "question": "What was the effect of VL-9 on fasting glucose?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-012"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q13",
+  "question": "Does ZX-101 reduce fasting glucose?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-013"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q14",
+  "question": "How much did sleep latency change with RT-450?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-014"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q15",
+  "question": "What was the effect of ZX-101 on resting heart rate?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-015"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q16",
+  "question": "Does MN-7 reduce systolic blood pressure?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-016"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q17",
+  "question": "How much did systolic blood pressure change with QB-22?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-017"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q18",
+  "question": "What was the effect of VL-9 on resting heart rate?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-018"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q19",
+  "question": "Does MN-7 reduce resting heart rate?",
+  "answerable": true,
+  "relevant_papers": [
+   "SYN-019"
+  ],
+  "relevant_sections": [
+   "Abstract",
+   "Results"
+  ]
+ },
+ {
+  "id": "q20",
+  "question": "What was the effect of RT-450 on systolic blood pressure?",
+  "answerable": false,
+  "relevant_papers": [],
+  "relevant_sections": []
+ },
+ {
+  "id": "q21",
+  "question": "What was the effect of ZX-101 on sleep latency?",
+  "answerable": false,
+  "relevant_papers": [],
+  "relevant_sections": []
+ },
+ {
+  "id": "q22",
+  "question": "What was the effect of ZX-101 on systolic blood pressure?",
+  "answerable": false,
+  "relevant_papers": [],
+  "relevant_sections": []
+ },
+ {
+  "id": "q23",
+  "question": "What was the effect of RT-450 on resting heart rate?",
+  "answerable": false,
+  "relevant_papers": [],
+  "relevant_sections": []
+ },
+ {
+  "id": "q24",
+  "question": "What was the effect of QB-22 on resting heart rate?",
+  "answerable": false,
+  "relevant_papers": [],
+  "relevant_sections": []
+ },
+ {
+  "id": "q25",
+  "question": "What was the effect of MN-7 on sleep latency?",
+  "answerable": false,
+  "relevant_papers": [],
+  "relevant_sections": []
+ },
+ {
+  "id": "q26",
+  "question": "What was the effect of ZX-999 on resting heart rate?",
+  "answerable": false,
+  "relevant_papers": [],
+  "relevant_sections": []
+ },
+ {
+  "id": "q27",
+  "question": "How does photosynthesis work in algae?",
+  "answerable": false,
+  "relevant_papers": [],
+  "relevant_sections": []
+ },
+ {
+  "id": "q28",
+  "question": "Does QB-22 cure insomnia?",
+  "answerable": false,
+  "relevant_papers": [],
+  "relevant_sections": []
+ }
+]

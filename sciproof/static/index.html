@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Sciproof: research answers you can check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700;900&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:light;
+--paper:#ece7d5;--paper2:#e3dcc5;--ink:#1d1a17;--mut:#6a6254;--rule:#1d1a17;--faint:#b9af98;
+--card:#f6f2e4;--ac:#7a1f16;--ok:#2e5e34;--bad:#8e2a1e;--hl:#f3dd6b;--lace:#2a2220;--lace2:#efe9dc;
+--display:"Playfair Display","Bodoni MT",Didot,Georgia,serif;--body:"Old Standard TT","Palatino Linotype","Book Antiqua",Georgia,serif;--type:"Special Elite","Courier New",monospace}
+*{box-sizing:border-box}
+html{background:var(--paper2)}
+body{margin:0;color:var(--ink);font:17px/1.65 var(--body);
+background-color:var(--paper);
+background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35  0 0 0 0 .28  0 0 0 0 .15  0 0 0 .13 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),radial-gradient(ellipse at 50% 30%,transparent 55%,rgba(90,70,30,.18) 100%)}
+button,input{font-family:inherit}
+:focus-visible{outline:2px dashed var(--ac);outline-offset:3px}
+
+/* lace edge, top and bottom */
+.lace{height:34px;background-color:var(--lace);
+background-image:radial-gradient(circle,transparent 3px,var(--lace2) 3.5px,var(--lace2) 5px,transparent 5.5px),radial-gradient(circle,var(--lace2) 1.6px,transparent 2px);
+background-size:22px 22px,22px 22px;background-position:0 0,11px 11px;border-top:3px solid var(--lace);border-bottom:3px double var(--lace2)}
+.lace.end{border-top:3px double var(--lace2);border-bottom:0;margin-top:48px}
+
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+
+/* masthead */
+.mast{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;padding:30px 0 14px}
+.brand{font:900 2.5rem/1 var(--display);letter-spacing:.01em;text-transform:none}
+.brand small{display:block;font:italic 400 .95rem/1.3 var(--body);color:var(--mut);margin-top:6px;letter-spacing:0}
+.stamp{font:.82rem/1.3 var(--type);border:1px solid var(--rule);padding:6px 10px;transform:rotate(-1.5deg);max-width:230px;color:var(--ink);background:var(--card)}
+.stamp b{color:var(--ac);font-weight:400}
+.dbl{border-top:4px solid var(--rule);border-bottom:1px solid var(--rule);height:9px}
+
+/* hero, two columns like a title plate */
+.hero{display:grid;grid-template-columns:84px minmax(0,1fr);gap:28px;padding:34px 0 8px}
+.side{writing-mode:vertical-rl;transform:rotate(180deg);font:300 1rem/1 var(--body);letter-spacing:.35em;color:var(--mut);border-left:1px solid var(--rule);padding-left:12px;align-self:stretch;text-align:center}
+.lead{text-align:center}
+.pre{display:flex;align-items:center;gap:14px;justify-content:center;font:italic 1.05rem var(--body);color:var(--mut);margin:0 0 6px}
+.pre::before,.pre::after{content:"";height:1px;background:var(--faint);flex:1;max-width:150px}
+h1{margin:0;font:900 clamp(2.2rem,6vw,3.6rem)/1.04 var(--display);letter-spacing:.005em}
+.sub{max-width:52ch;margin:14px auto 22px;color:var(--ink);text-align:justify;text-align-last:center;hyphens:auto}
+.orn{display:flex;align-items:center;gap:12px;justify-content:center;margin:18px 0}
+.orn::before,.orn::after{content:"";height:1px;background:var(--rule);flex:1;max-width:210px}
+.orn i{width:9px;height:9px;background:var(--ink);transform:rotate(45deg);display:block;box-shadow:0 0 0 3px var(--paper),0 0 0 4px var(--ink)}
+
+/* the question, written on a ruled line */
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;max-width:820px;margin:0 auto}
+input{flex:1;min-width:240px;border:0;border-bottom:2px solid var(--ink);background:transparent;color:var(--ink);padding:8px 2px;font:italic 1.2rem var(--body);border-radius:0}
+input::placeholder{color:#8d8472}
+input:focus{outline:0;border-bottom-color:var(--ac);background:linear-gradient(transparent 80%,rgba(122,31,22,.07))}
+button{padding:9px 20px;border:2px solid var(--ink);background:var(--ink);color:var(--paper);font:700 1rem var(--display);cursor:pointer;border-radius:0}
+button:hover{background:var(--ac);border-color:var(--ac)}
+button.alt{background:transparent;color:var(--ink)}
+button.alt:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+@media (prefers-reduced-motion:no-preference){button{transition:background .15s,color .15s}}
+
+.warn{max-width:820px;margin:24px auto 0;border:1px solid var(--rule);outline:1px solid var(--rule);outline-offset:3px;padding:8px 14px;font:.9rem/1.45 var(--type);text-align:center;background:var(--card)}
+
+/* results */
+main{padding-top:10px}
+.grid{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:36px;align-items:start;margin-top:8px}
+aside{position:sticky;top:18px}
+.card{background:var(--card);border:1px solid var(--rule);padding:18px 22px;margin-bottom:22px;box-shadow:4px 4px 0 rgba(29,26,23,.14)}
+#out .card:first-child{border-top:4px solid var(--rule)}
+h3{margin:0 0 10px;font:700 1.25rem/1.25 var(--display)}
+.claim{margin:0 0 18px;line-height:1.7}
+#out .card>.claim:last-child{margin-bottom:0}
+.claim>span.ok,.claim>span.bad{display:inline-block;margin-left:6px;padding:0 8px;border:1px solid currentColor;font:.76rem/1.5 var(--type);transform:rotate(-2deg);white-space:nowrap}
+.cite{font:.78rem var(--type);border:1px solid var(--ink);padding:1px 6px;margin-left:5px;cursor:pointer;background:transparent;color:var(--ac);font-weight:400;border-radius:0}
+.cite:hover{background:var(--ac);color:var(--paper);border-color:var(--ac)}
+.tag{display:inline-block;font:.78rem var(--type);border:1px solid var(--ink);padding:0 8px;margin-right:6px}
+.ok{color:var(--ok)}.bad{color:var(--bad)}.mut{color:var(--mut);font-size:.92rem;font-style:italic}
+#out ul{margin:14px 0 0;padding:0;list-style:none}
+#out li{padding:9px 0;border-top:1px dotted var(--ink)}
+#out p{margin:0 0 10px}
+
+/* the source passage is a pinned index card */
+aside .card{transform:rotate(.6deg);background:
+linear-gradient(transparent 31px,rgba(122,31,22,.18) 32px) 0 0/100% 32px,var(--card);padding-top:20px;position:relative;border-top:4px solid var(--ac)}
+aside .card::before{content:"";position:absolute;top:-12px;left:50%;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:var(--ac);box-shadow:inset -2px -2px 0 rgba(0,0,0,.3)}
+#src{line-height:32px}
+#src p{margin:0 0 4px;line-height:32px}
+#src p:first-of-type{font:700 1.05rem/1.3 var(--display);margin:8px 0}
+#src .mut{line-height:1.4;margin-top:8px}
+mark{background:linear-gradient(transparent 12%,var(--hl) 12%,var(--hl) 92%,transparent 92%);color:inherit;padding:0 1px}
+
+@media(max-width:820px){
+.hero{grid-template-columns:1fr}.side{display:none}
+.grid{grid-template-columns:1fr}aside{position:static}
+.mast{flex-direction:column;align-items:flex-start}.stamp{transform:none}}
+</style></head><body>
+<div class="lace" aria-hidden="true"></div>
+<div class="wrap">
+<header class="mast"><div class="brand">Sciproof<small>Every claim, traced to its passage.</small></div>
+<div class="stamp">Research support only, not medical advice. <b>Specimen corpus:</b> fictional compounds.</div></header>
+<div class="dbl" aria-hidden="true"></div>
+<section class="hero"><div class="side" aria-hidden="true">Claims, sources, verdicts</div>
+<div class="lead"><p class="pre">Put your question to</p><h1>The scientific literature</h1>
+<p class="sub">Type a research question and receive claims that each cite the exact passage behind them. If the papers cannot answer it, Sciproof says so rather than guess.</p>
+<div class="orn" aria-hidden="true"><i></i></div>
+<div class="row"><input id="q" placeholder="What was the effect of VL-9 on systolic blood pressure?" aria-label="Question">
+<button id="ask">Ask</button><button id="check" class="alt" title="Treat input as a claim and weigh the evidence">Check claim</button></div>
+</div></section>
+<div class="dbl" aria-hidden="true" style="margin-top:26px"></div>
+<main>
+<div class="grid"><section id="out" aria-live="polite"></section><aside><div class="card"><h3>Source passage</h3><div id="src" class="mut">Click a citation to see its source.</div></div></aside></div>
+<script>
+const $=id=>document.getElementById(id);let P={};
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function show(id,claim){const p=P[id];if(!p)return;let t=esc(p.text);if(claim){const s=esc(claim);if(t.includes(s))t=t.replace(s,"<mark>"+s+"</mark>")}
+$("src").innerHTML=`<div><span class="tag">${esc(p.study_type)}</span><span class="tag">${p.year}</span><span class="tag">${esc(p.section)}</span></div><p><b>${esc(p.title)}</b></p><p>${t}</p><div class="mut">${esc(p.chunk_id)}</div>`}
+function verdict(a){if(!a)return"";const s=a.studies.map(x=>`<li><span class="tag">${esc(x.study_type)} ${x.year}</span><b>${esc(x.stance)}</b> <button class="cite" data-id="${esc(x.chunk_id)}" data-s="${esc(x.sentence)}">${esc(x.chunk_id)}</button></li>`).join("");
+return `<div class="card"><h3>Evidence check: ${esc(a.verdict.replace("_"," "))}</h3><p>${esc(a.explanation)}</p><ul>${s}</ul></div>`}
+function render(d){if(d.passages)P=d.passages;let h="";
+if(d.assessment===undefined){h=verdict(d)}else if(d.abstained){h=`<div class="card"><h3>Not enough evidence to answer</h3><p>${esc(d.reason)}</p><p class="mut">Declining is deliberate: Sciproof refuses rather than guess.</p></div>`}
+else{h=d.claims.map(c=>`<p class="claim">${esc(c.text)} ${c.chunk_ids.map(i=>`<button class="cite" data-id="${esc(i)}" data-s="${esc(c.text)}">${esc(i)}</button>`).join("")} <span class="${c.verified?"ok":"bad"}" title="${esc(c.note)}">${c.verified?"✓ verified":"✗ unverified"}</span></p>`).join("");
+h=`<div class="card">${h}</div>`+verdict(d.assessment)}
+if(d.notes&&d.notes.length)h+=`<div class="mut">${d.notes.map(esc).join("<br>")}</div>`;$("out").innerHTML=h;$("src").textContent="Click a citation to see its source."}
+$("out").addEventListener("click",e=>{const b=e.target.closest("button.cite");if(b)show(b.dataset.id,b.dataset.s)});
+async function go(path,key){const v=$("q").value.trim();if(!v)return;$("out").textContent="Thinking…";
+try{const r=await fetch(path,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({[key]:v})});const d=await r.json();
+if(path==="/api/check"){P={};await fillPassages(d)}render(d)}catch(err){$("out").textContent="Error: "+err}}
+async function fillPassages(d){for(const s of d.studies){if(!P[s.chunk_id]){const r=await fetch("/api/passage?id="+encodeURIComponent(s.chunk_id));if(r.ok)P[s.chunk_id]=await r.json()}}}
+$("ask").onclick=()=>go("/api/ask","question");$("check").onclick=()=>go("/api/check","claim");
+$("q").addEventListener("keydown",e=>{if(e.key==="Enter")go("/api/ask","question")});
+</script>
+</main></div>
+<div class="lace end" aria-hidden="true"></div>
+</body></html>

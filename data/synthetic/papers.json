@@ -1,0 +1,494 @@
+[
+ {
+  "paper_id": "SYN-001",
+  "title": "SYNTHETIC: Effect of VL-9 on systolic blood pressure (RCT)",
+  "year": 2022,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, VL-9. We randomized 120 fictional adults to VL-9 or placebo. Systolic blood pressure decreased by 11 mmHg in the treatment arm (p = 0.004). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 40 to 65 with no prior cardiac disease were randomized 1:1 to VL-9 or placebo, as described in Fig. 1. Systolic blood pressure was measured at baseline and at week 16 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline systolic blood pressure was 129 mmHg in both arms. At week 16, systolic blood pressure decreased by 11 mmHg in the treatment arm relative to placebo (p = 0.004). Mild dizziness occurred in 10% of treated participants versus 2% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest VL-9 may modify systolic blood pressure in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-002",
+  "title": "SYNTHETIC: Effect of VL-9 on systolic blood pressure (cohort)",
+  "year": 2022,
+  "study_type": "cohort",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "In a fictional cohort of 800 adults, VL-9 users had lower systolic blood pressure than non-users (p = 0.02)."
+   },
+   {
+    "name": "Results",
+    "text": "Systolic blood pressure was 11 mmHg lower in users than non-users (p = 0.02). Estimates were similar across sexes. Adherence was self-reported, which limits interpretation."
+   },
+   {
+    "name": "Discussion",
+    "text": "Residual confounding is possible. Differences in age range relative to trials may explain discordant findings."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-003",
+  "title": "SYNTHETIC: Effect of RT-450 on fasting glucose (RCT)",
+  "year": 2022,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, RT-450. We randomized 200 fictional adults to RT-450 or placebo. Fasting glucose decreased by 14 mg/dL in the treatment arm (p = 0.004). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 30 to 60 with no prior cardiac disease were randomized 1:1 to RT-450 or placebo, as described in Fig. 1. Fasting glucose was measured at baseline and at week 12 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline fasting glucose was 106 mg/dL in both arms. At week 12, fasting glucose decreased by 14 mg/dL in the treatment arm relative to placebo (p = 0.004). Mild nausea occurred in 10% of treated participants versus 4% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest RT-450 may modify fasting glucose in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-004",
+  "title": "SYNTHETIC: Effect of RT-450 on fasting glucose (cohort)",
+  "year": 2022,
+  "study_type": "cohort",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "In a fictional cohort of 1500 adults, RT-450 users showed no meaningful change in fasting glucose. Observational confounding cannot be excluded."
+   },
+   {
+    "name": "Results",
+    "text": "Fasting glucose differed by 1 mg/dL between users and non-users (p = 0.34). Estimates were similar across sexes. Adherence was self-reported, which limits interpretation."
+   },
+   {
+    "name": "Discussion",
+    "text": "Residual confounding is possible. Differences in age range relative to trials may explain discordant findings."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-005",
+  "title": "SYNTHETIC: Effect of MN-7 on fasting glucose (RCT)",
+  "year": 2021,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, MN-7. We randomized 120 fictional adults to MN-7 or placebo. Fasting glucose decreased by 15 mg/dL in the treatment arm (p = 0.02). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 40 to 65 with no prior cardiac disease were randomized 1:1 to MN-7 or placebo, as described in Fig. 1. Fasting glucose was measured at baseline and at week 16 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline fasting glucose was 107 mg/dL in both arms. At week 16, fasting glucose decreased by 15 mg/dL in the treatment arm relative to placebo (p = 0.02). Mild dizziness occurred in 9% of treated participants versus 4% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest MN-7 may modify fasting glucose in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-006",
+  "title": "SYNTHETIC: Effect of MN-7 on fasting glucose (cohort)",
+  "year": 2024,
+  "study_type": "cohort",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "In a fictional cohort of 1000 adults, MN-7 users showed no meaningful change in fasting glucose. Observational confounding cannot be excluded."
+   },
+   {
+    "name": "Results",
+    "text": "Fasting glucose differed by 0 mg/dL between users and non-users (p = 0.34). Estimates were similar across sexes. Adherence was self-reported, which limits interpretation."
+   },
+   {
+    "name": "Discussion",
+    "text": "Residual confounding is possible. Differences in age range relative to trials may explain discordant findings."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-007",
+  "title": "SYNTHETIC: Effect of VL-9 on sleep latency (RCT)",
+  "year": 2020,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, VL-9. We randomized 240 fictional adults to VL-9 or placebo. Sleep latency decreased by 7 minutes in the treatment arm (p = 0.01). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 30 to 60 with no prior cardiac disease were randomized 1:1 to VL-9 or placebo, as described in Fig. 1. Sleep latency was measured at baseline and at week 16 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline sleep latency was 37 minutes in both arms. At week 16, sleep latency decreased by 7 minutes in the treatment arm relative to placebo (p = 0.01). Mild headache occurred in 8% of treated participants versus 2% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest VL-9 may modify sleep latency in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-008",
+  "title": "SYNTHETIC: Effect of VL-9 on sleep latency (cohort)",
+  "year": 2023,
+  "study_type": "cohort",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "In a fictional cohort of 1000 adults, VL-9 users showed no meaningful change in sleep latency. Observational confounding cannot be excluded."
+   },
+   {
+    "name": "Results",
+    "text": "Sleep latency differed by 1 minutes between users and non-users (p = 0.34). Estimates were similar across sexes. Adherence was self-reported, which limits interpretation."
+   },
+   {
+    "name": "Discussion",
+    "text": "Residual confounding is possible. Differences in age range relative to trials may explain discordant findings."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-009",
+  "title": "SYNTHETIC: Effect of QB-22 on fasting glucose (RCT)",
+  "year": 2022,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, QB-22. We randomized 120 fictional adults to QB-22 or placebo. Fasting glucose dropped by 16 mg/dL in the treatment arm (p = 0.01). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 45 to 70 with no prior cardiac disease were randomized 1:1 to QB-22 or placebo, as described in Fig. 1. Fasting glucose was measured at baseline and at week 16 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline fasting glucose was 106 mg/dL in both arms. At week 16, fasting glucose dropped by 16 mg/dL in the treatment arm relative to placebo (p = 0.01). Mild dizziness occurred in 8% of treated participants versus 5% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest QB-22 may modify fasting glucose in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-010",
+  "title": "SYNTHETIC: Effect of QB-22 on fasting glucose (cohort)",
+  "year": 2024,
+  "study_type": "cohort",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "In a fictional cohort of 800 adults, QB-22 users showed no meaningful change in fasting glucose. Observational confounding cannot be excluded."
+   },
+   {
+    "name": "Results",
+    "text": "Fasting glucose differed by 1 mg/dL between users and non-users (p = 0.40). Estimates were similar across sexes. Adherence was self-reported, which limits interpretation."
+   },
+   {
+    "name": "Discussion",
+    "text": "Residual confounding is possible. Differences in age range relative to trials may explain discordant findings."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-011",
+  "title": "SYNTHETIC: Effect of QB-22 on sleep latency (RCT)",
+  "year": 2020,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, QB-22. We randomized 240 fictional adults to QB-22 or placebo. Sleep latency dropped by 6 minutes in the treatment arm (p = 0.02). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 45 to 70 with no prior cardiac disease were randomized 1:1 to QB-22 or placebo, as described in Fig. 1. Sleep latency was measured at baseline and at week 16 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline sleep latency was 32 minutes in both arms. At week 16, sleep latency dropped by 6 minutes in the treatment arm relative to placebo (p = 0.02). Mild dizziness occurred in 9% of treated participants versus 4% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest QB-22 may modify sleep latency in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-012",
+  "title": "SYNTHETIC: Effect of VL-9 on fasting glucose (RCT)",
+  "year": 2020,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, VL-9. We randomized 200 fictional adults to VL-9 or placebo. Fasting glucose fell by 11 mg/dL in the treatment arm (p = 0.02). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 40 to 65 with no prior cardiac disease were randomized 1:1 to VL-9 or placebo, as described in Fig. 1. Fasting glucose was measured at baseline and at week 16 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline fasting glucose was 119 mg/dL in both arms. At week 16, fasting glucose fell by 11 mg/dL in the treatment arm relative to placebo (p = 0.02). Mild nausea occurred in 12% of treated participants versus 4% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest VL-9 may modify fasting glucose in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-013",
+  "title": "SYNTHETIC: Effect of ZX-101 on fasting glucose (RCT)",
+  "year": 2020,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, ZX-101. We randomized 400 fictional adults to ZX-101 or placebo. Fasting glucose dropped by 12 mg/dL in the treatment arm (p = 0.004). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 40 to 65 with no prior cardiac disease were randomized 1:1 to ZX-101 or placebo, as described in Fig. 1. Fasting glucose was measured at baseline and at week 12 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline fasting glucose was 112 mg/dL in both arms. At week 12, fasting glucose dropped by 12 mg/dL in the treatment arm relative to placebo (p = 0.004). Mild headache occurred in 10% of treated participants versus 4% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest ZX-101 may modify fasting glucose in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-014",
+  "title": "SYNTHETIC: Effect of RT-450 on sleep latency (RCT)",
+  "year": 2020,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, RT-450. We randomized 240 fictional adults to RT-450 or placebo. Sleep latency decreased by 14 minutes in the treatment arm (p = 0.01). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 30 to 60 with no prior cardiac disease were randomized 1:1 to RT-450 or placebo, as described in Fig. 1. Sleep latency was measured at baseline and at week 16 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline sleep latency was 43 minutes in both arms. At week 16, sleep latency decreased by 14 minutes in the treatment arm relative to placebo (p = 0.01). Mild headache occurred in 7% of treated participants versus 3% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest RT-450 may modify sleep latency in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-015",
+  "title": "SYNTHETIC: Effect of ZX-101 on resting heart rate (RCT)",
+  "year": 2021,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, ZX-101. We randomized 200 fictional adults to ZX-101 or placebo. Resting heart rate dropped by 5 beats per minute in the treatment arm (p = 0.001). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 40 to 65 with no prior cardiac disease were randomized 1:1 to ZX-101 or placebo, as described in Fig. 1. Resting heart rate was measured at baseline and at week 16 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline resting heart rate was 72 beats per minute in both arms. At week 16, resting heart rate dropped by 5 beats per minute in the treatment arm relative to placebo (p = 0.001). Mild dizziness occurred in 7% of treated participants versus 4% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest ZX-101 may modify resting heart rate in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-016",
+  "title": "SYNTHETIC: Effect of MN-7 on systolic blood pressure (RCT)",
+  "year": 2021,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, MN-7. We randomized 400 fictional adults to MN-7 or placebo. Systolic blood pressure decreased by 7 mmHg in the treatment arm (p = 0.03). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 30 to 60 with no prior cardiac disease were randomized 1:1 to MN-7 or placebo, as described in Fig. 1. Systolic blood pressure was measured at baseline and at week 16 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline systolic blood pressure was 128 mmHg in both arms. At week 16, systolic blood pressure decreased by 7 mmHg in the treatment arm relative to placebo (p = 0.03). Mild headache occurred in 7% of treated participants versus 2% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest MN-7 may modify systolic blood pressure in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-017",
+  "title": "SYNTHETIC: Effect of QB-22 on systolic blood pressure (RCT)",
+  "year": 2020,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, QB-22. We randomized 400 fictional adults to QB-22 or placebo. Systolic blood pressure dropped by 11 mmHg in the treatment arm (p = 0.001). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 30 to 60 with no prior cardiac disease were randomized 1:1 to QB-22 or placebo, as described in Fig. 1. Systolic blood pressure was measured at baseline and at week 12 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline systolic blood pressure was 140 mmHg in both arms. At week 12, systolic blood pressure dropped by 11 mmHg in the treatment arm relative to placebo (p = 0.001). Mild dizziness occurred in 9% of treated participants versus 2% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest QB-22 may modify systolic blood pressure in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-018",
+  "title": "SYNTHETIC: Effect of VL-9 on resting heart rate (RCT)",
+  "year": 2022,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, VL-9. We randomized 400 fictional adults to VL-9 or placebo. Resting heart rate decreased by 5 beats per minute in the treatment arm (p = 0.01). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 40 to 65 with no prior cardiac disease were randomized 1:1 to VL-9 or placebo, as described in Fig. 1. Resting heart rate was measured at baseline and at week 8 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline resting heart rate was 71 beats per minute in both arms. At week 8, resting heart rate decreased by 5 beats per minute in the treatment arm relative to placebo (p = 0.01). Mild nausea occurred in 6% of treated participants versus 2% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest VL-9 may modify resting heart rate in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ },
+ {
+  "paper_id": "SYN-019",
+  "title": "SYNTHETIC: Effect of MN-7 on resting heart rate (RCT)",
+  "year": 2020,
+  "study_type": "RCT",
+  "sections": [
+   {
+    "name": "Abstract",
+    "text": "This synthetic trial tests a fictional compound, MN-7. We randomized 120 fictional adults to MN-7 or placebo. Resting heart rate fell by 8 beats per minute in the treatment arm (p = 0.001). No serious adverse events were recorded."
+   },
+   {
+    "name": "Methods",
+    "text": "Participants aged 45 to 70 with no prior cardiac disease were randomized 1:1 to MN-7 or placebo, as described in Fig. 1. Resting heart rate was measured at baseline and at week 12 by trained staff. Analysis followed the intention-to-treat principle, e.g. all randomized participants were included."
+   },
+   {
+    "name": "Results",
+    "text": "Mean baseline resting heart rate was 72 beats per minute in both arms. At week 12, resting heart rate fell by 8 beats per minute in the treatment arm relative to placebo (p = 0.001). Mild nausea occurred in 10% of treated participants versus 5% on placebo."
+   },
+   {
+    "name": "Discussion",
+    "text": "These synthetic findings suggest MN-7 may modify resting heart rate in this population. Longer follow-up is needed. Limitations include the single-region sample."
+   },
+   {
+    "name": "References",
+    "text": "1. Fictional A et al. Not a real paper. 2. Fictional B et al. Also not real."
+   }
+  ]
+ }
+]
